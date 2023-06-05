@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": [
+        "es2015",
+        "esnext",
+        "dom"
+    ],
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "rootDir": "src",
+    "strict": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationDir": "types"
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "types"
+  ]
+}
